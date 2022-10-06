@@ -1,11 +1,13 @@
 // ignore: file_names
+// ignore: file_names
+// ignore: file_names
+// ignore: file_names
 import 'package:flutter/material.dart';
+import 'package:medquiz/utils/constants/image_path.dart';
 import 'package:medquiz/utils/theme/medQuiz_colors.dart';
 import 'package:medquiz/utils/widgets/button_widget.dart';
 import 'package:medquiz/utils/widgets/text_form_field_widget.dart';
 import 'package:medquiz/utils/widgets/text_widget.dart';
-
-import '../../../utils/constants/image_path.dart';
 
 class Loginscreen extends StatefulWidget {
   const Loginscreen({Key? key}) : super(key: key);
