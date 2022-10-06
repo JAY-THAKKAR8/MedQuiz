@@ -1,4 +1,4 @@
 class AppAssets {
-  static String medquiz = "images/medquiz.jpeg";
-  static String splashimage = "images/splashimage.PNG";
+  static String medquiz = "assets/images/medquiz.jpeg";
+  static String splashimage = "assets/images/splashimage.PNG";
 }
