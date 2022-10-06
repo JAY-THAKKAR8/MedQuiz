@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-class MedQuizColors{
-  static const whiteColor =Color(0xFFFFFFFF);
+class MedQuizColors {
+  static const whiteColor = Color(0xFFFFFFFF);
   static const blackColor = Color(0xFF000000);
   static const darkBlueColor = Color(0xFF163e7c);
   static const lightBlueColor = Color(0xFF3161B6);
@@ -16,6 +16,4 @@ class MedQuizColors{
   static const pinkColor = Color(0xffff8b8b);
   static const greenColor = Color(0xff73be00);
   static const yellowColor = Color(0xffffd310);
-
-
 }
