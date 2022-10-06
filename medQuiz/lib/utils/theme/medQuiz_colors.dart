@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'dart:ui';
 
 class MedQuizColors {
@@ -16,4 +17,7 @@ class MedQuizColors {
   static const pinkColor = Color(0xffff8b8b);
   static const greenColor = Color(0xff73be00);
   static const yellowColor = Color(0xffffd310);
+  static Color primaryColor = const Color(0xff163E7C);
+  static Color facebookcolor = const Color(0xFF3161B6);
+  static Color googlecolor = const Color(0xFFFF8B8B);
 }
