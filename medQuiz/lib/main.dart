@@ -38,7 +38,7 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            const Text("Hello", style: AppTextStyles.headingTextStyle),
+            const Text("Hello my fried", style: AppTextStyles.headingTextStyle),
             CommonButtonWidget(
                 buttonText: "Click",
                 onTap: () {},
