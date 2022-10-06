@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 class MyHomePage extends StatelessWidget {
   const MyHomePage({Key? key}) : super(key: key);
 
@@ -29,18 +30,22 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("HomePage",style: AppTextStyles.appbarTextStyle,),
+        title: const Text(
+          "HomePage",
+          style: AppTextStyles.appbarTextStyle,
+        ),
       ),
       body: Center(
         child: Column(
           children: [
-            Text("Hello World",style: AppTextStyles.headingTextStyle),
-            Text("Hello World",style: AppTextStyles.normalTextTextStyle),
-            CommonButtonWidget(buttonText: "Click",onTap: (){},buttonColor: MedQuizColors.darkBlueColor),
+            const Text("Hello", style: AppTextStyles.headingTextStyle),
+            CommonButtonWidget(
+                buttonText: "Click",
+                onTap: () {},
+                buttonColor: MedQuizColors.darkBlueColor),
           ],
         ),
       ),
     );
   }
 }
-
