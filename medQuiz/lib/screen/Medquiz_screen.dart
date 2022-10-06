@@ -3,6 +3,7 @@
 // ignore: file_names
 // ignore: file_names
 import 'package:flutter/material.dart';
+import 'package:medquiz/utils/theme/medQuiz_colors.dart';
 
 class MedQuiz extends StatefulWidget {
   const MedQuiz({Key? key}) : super(key: key);
@@ -17,6 +18,7 @@ class _MedQuizState extends State<MedQuiz> {
     return Scaffold(
       backgroundColor: Colors.grey.shade300,
       appBar: AppBar(
+        backgroundColor: MedQuizColors.darkBlueColor,
         centerTitle: true,
         title: const Text(
           'About us',
