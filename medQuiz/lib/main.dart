@@ -1,13 +1,11 @@
-import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:medquiz/Features/Screens/splashscreen/splashscreen.dart';
 
+import 'Features/Screens/geometricPage_42/page/geometricPage.dart';
+
 void main() {
   runApp(
-    DevicePreview(
-        enabled: true,
-        tools: const [...DevicePreview.defaultTools],
-        builder: (context) => const MyApp()),
+      MyApp(),
   );
 }
 
@@ -21,6 +19,6 @@ class MyApp extends StatelessWidget {
         title: 'MedQuiz Academy',
         theme: ThemeData(
             primarySwatch: Colors.blue, scaffoldBackgroundColor: Colors.white),
-        home: const SplashScreen());
+        home: const GeometricPageUi());
   }
 }

@@ -35,6 +35,17 @@ class _GeometricPageUiState extends State<GeometricPageUi> {
           ),
         ),
       ),
+      body: Center(
+        child: Container(
+          height: 100,
+          width: 50,
+          decoration: BoxDecoration(
+            color: Colors.white,
+            border: Border.all(width: 4,color: Colors.grey),
+            borderRadius: BorderRadius.circular(20)
+          ),
+        ),
+      ),
     );
   }
 }
