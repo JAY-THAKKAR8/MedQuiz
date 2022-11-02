@@ -8,5 +8,6 @@ class AppColor {
   static Color facebookcolor = const Color(0xFF3161B6);
   static Color googlecolor = const Color(0xFFFF8B8B);
   static Color lightgrey = const Color(0xFFF3F5F4);
+  static Color lightgreen = const Color(0xFFABD773);
   static Color trasperant = Colors.transparent;
 }
