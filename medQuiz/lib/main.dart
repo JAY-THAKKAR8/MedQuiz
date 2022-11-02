@@ -2,7 +2,6 @@
 
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
-import 'package:medquiz/screen/login_screen.dart';
 import 'package:medquiz/screen/splashscreen.dart';
 
 void main() {
