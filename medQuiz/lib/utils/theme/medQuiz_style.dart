@@ -21,8 +21,12 @@ class AppTextStyles {
       fontSize: 20,
       color: MedQuizColors.blackColor,
       fontWeight: FontWeight.w500);
-  static const grayTextstyle = TextStyle(
+  static const GrayTextstyle = TextStyle(
       fontSize: 20,
-      color: MedQuizColors.grayColor,
+      color: MedQuizColors.color50gray,
+      fontWeight: FontWeight.w500);
+  static const GrayNormalTextstyle = TextStyle(
+      fontSize: 18,
+      color: MedQuizColors.color50gray,
       fontWeight: FontWeight.w500);
 }
