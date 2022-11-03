@@ -2,7 +2,7 @@
 
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
-import 'package:medquiz/screen/payment.dart';
+import 'package:medquiz/screen/aboutus_screen.dart';
 
 void main() {
   runApp(
@@ -23,6 +23,6 @@ class MyApp extends StatelessWidget {
         title: 'MedQuiz Academy',
         theme: ThemeData(
             primarySwatch: Colors.blue, scaffoldBackgroundColor: Colors.white),
-        home: const PaymentPage());
+        home: const AboutUsScreen());
   }
 }

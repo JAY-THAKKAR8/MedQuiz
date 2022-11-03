@@ -41,6 +41,7 @@ dependencies:
   cached_network_image: ^3.2.2
   connectivity_plus: ^3.0.2
   permission_handler: ^10.2.0
+  ionicons: ^0.2.1
 
 dev_dependencies:
   flutter_test:
